@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">いいね数取得</string>
+    <string name="urlLabel">URLを入力します。</string>
+    <string name="get">取得</string>
+    <string name="getIineError">データの取得に失敗しました。</string>
+    <string name="noUrl">URLが入力されていません。</string>
+    <string name="getIine">データ取得中</string>
+    <string name="likeLabel">いいね数　：</string>
+    <string name="commentLabel">コメント数：</string>
+    <string name="shareLabel">シェア数　：</string>
+    <string name="likeTag">like_count</string>
+    <string name="commentTag">comment_count</string>
+    <string name="shareTag">share_count</string>
+    <string name="fqlURL1">https://api.facebook.com/method/fql.query?format=json&amp;query=select%20%20like_count%20,comment_count%20,share_count%20from%20link_stat%20where%20url=%22</string>
+    <string name="fqlURL2">%22</string>
+    <string-array name="interval">
+      <item>5</item>
+      <item>10</item>
+      <item>15</item>
+      <item>20</item>
+      <item>25</item>
+      <item>30</item>
+    </string-array>
+    
+</resources>
